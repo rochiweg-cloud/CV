@@ -8,8 +8,6 @@ date: 2024-01-01
 location: "Buenos Aires, Argentina"
 ---
 
-# Teaching Experience
-
 I served as a Teaching Assistant in the following seminars:
 
 ## Module 1: Introduction to Data Science for Social Scientists
