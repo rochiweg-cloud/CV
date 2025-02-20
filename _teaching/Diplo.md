@@ -1,7 +1,7 @@
 ---
-title: "Teaching Assistant Experience"
+title: "Teaching Assistant"
 collection: teaching
-type: "Postgraduate courses"
+type: "Postgraduate seminars"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Universidad Nacional de San Martín, Instituto de Altos Estudios Sociales"
 date: 2024-01-01
