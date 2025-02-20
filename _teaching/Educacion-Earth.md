@@ -7,9 +7,6 @@ venue: "[Educación.Earth](https://educacion.earth/), Academy for Environmental 
 date: 2023-01-01
 location: "Remote"
 ---
-
-# Teaching Experience
-
 I served as a Professor at [Educación.Earth](https://educacion.earth/), teaching the following professional courses:
 
 ## Deep Learning for Environmental Monitoring
