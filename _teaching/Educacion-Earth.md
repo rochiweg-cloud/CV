@@ -3,8 +3,8 @@ title: "Professor"
 collection: teaching
 type: "Professional Development Courses"
 permalink: /teaching/educacion-earth
-venue: "[Educación.Earth](https://educacion.earth/), Academy for Environmental Technology"
-date: 2023-01-01
+venue: "Educación.Earth, Academy for Environmental Technology"
+date: 2024-01-01
 location: "Remote"
 ---
 I served as a Professor at [Educación.Earth](https://educacion.earth/), teaching the following professional courses:
