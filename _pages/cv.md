@@ -2,7 +2,7 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
@@ -16,7 +16,7 @@ redirect_from:
 
 ### Professional Summary
 
-Innovative Data Scientist with a unique blend of computational and social science expertise. Specialized in developing end-to-end machine learning solutions and predictive models that drive actionable insights. Proven track record in implementing advanced analytics solutions in government and research settings, combining technical excellence with strong stakeholder communication skills.
+Social Data Scientist. A blend of both worlds. I combine strong technical knowledge with good communication skills and research experience.
 
 ---
 
@@ -65,15 +65,6 @@ Led data-driven urban development initiatives:
 - Applied advanced data balancing techniques and model evaluation metrics
 - Created comprehensive documentation for data processes and methodologies
 
-#### Independent Consultant
-**Vicente López Municipality** *(2023)*
-
-Led the technical aspects of a municipal census:
-
-- Designed data collection methodology and instruments
-- Performed quantitative analysis of census results
-- Collaborated with government stakeholders and multidisciplinary teams
-
 ---
 
 ### Academic Background
@@ -93,16 +84,18 @@ Led the technical aspects of a municipal census:
 
 ### Teaching Experience
 
-#### Adjunct Professor
+#### Teaching Assistant
 **National University of San Martín** *(2024 - Present)*
-- Teaching Computational Social Sciences and Digital Humanities
-- R programming for social data analysis
+- Introduction to Data Science for Social Scientists
+- Data Visualization
+- Introduction to Data Modeling
+- Machine Learning Fundamentals
 
-#### Technical Instructor
+#### Professor
 **Educación.Earth** *(2024 - Present)*
-- Machine Learning for Environmental Applications
-- Remote Sensing with Python
-- YOLO Object Detection Workshop
+- Deep Learning for Environmental Monitoring
+- Computer Vision Workshop: Advanced Object Segmentation
+- Geospatial Analysis and Machine Learning
 
 ---
 
