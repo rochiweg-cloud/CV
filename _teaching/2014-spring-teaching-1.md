@@ -1,20 +1,63 @@
 ---
-title: "Teaching Assistant"
+title: "Teaching Assistant Experience"
 collection: teaching
-type: "Posgraduate course"
+type: "Postgraduate courses"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Universidad Nacional de San Martín, Instituto de Altos Estudios Sociales"
-date: 2014-04-01
+date: 2024-01-01
 location: "Buenos Aires, Argentina"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+# Teaching Experience
 
-Heading 1
-======
+I served as a Teaching Assistant in the following seminars:
 
-Heading 2
-======
+## Module 1: Introduction to Data Science for Social Scientists
 
-Heading 3
-======
+Course content:
+- What is data science? Relationship and applications in social sciences
+- Basic elements of statistical programming in R
+ - Objects (vectors, lists, matrices, data frames, tibbles)
+ - Functions and loops
+- Data processing with tidyverse
+- Data wrangling and cleaning
+- Descriptive statistical analysis with R
+
+## Module 2: Data Visualization
+
+Course content:
+- Conceptual introduction
+ - Infographics vs. graphics
+ - Historical examples (Joseph Minard, William Playfair, John Snow, Florence Nightingale, Harry Beck)
+- Replicability
+- Grammar of graphics
+- Visualization and graph generation in R
+ - Graphing concepts (shape, color, size)
+- Introduction to ggplot2
+
+## Module 3: Introduction to Data Modeling
+
+Course content:
+- Basic models: linear and logistic regression
+- Estimation, least squares, maximum likelihood
+- Interpretation and validation
+- Machine learning concepts
+- Supervised learning: classification and regression
+- Training error, testing error, overfitting
+- Regularization: LASSO and Ridge
+- Introduction to tidymodels
+
+## Module 4: Machine Learning Fundamentals
+
+Course content:
+- Tree-based classifiers: CART
+- Ensemble algorithms
+ - Bagging
+ - Random forest
+ - Boosting
+ - Gradient Boosting
+- Interpretable Machine Learning
+ - Black box model interpretation tools
+ - Feature Importance
+ - Partial Dependence Plots
+ - Individual Conditional Expectancy Plots
