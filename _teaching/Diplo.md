@@ -10,7 +10,7 @@ location: "Buenos Aires, Argentina"
 
 I served as a Teaching Assistant in the following seminars:
 
-## Module 1: Introduction to Data Science for Social Scientists
+Introduction to Data Science for Social Scientists
 
 Course content:
 - What is data science? Relationship and applications in social sciences
@@ -21,7 +21,7 @@ Course content:
 - Data wrangling and cleaning
 - Descriptive statistical analysis with R
 
-## Module 2: Data Visualization
+Data Visualization
 
 Course content:
 - Conceptual introduction
@@ -33,7 +33,7 @@ Course content:
  - Graphing concepts (shape, color, size)
 - Introduction to ggplot2
 
-## Module 3: Introduction to Data Modeling
+Introduction to Data Modeling
 
 Course content:
 - Basic models: linear and logistic regression
@@ -45,7 +45,7 @@ Course content:
 - Regularization: LASSO and Ridge
 - Introduction to tidymodels
 
-## Module 4: Machine Learning Fundamentals
+Machine Learning Fundamentals
 
 Course content:
 - Tree-based classifiers: CART
