@@ -1,14 +1,56 @@
 ---
-title: "Paper Title Number 1"
-collection: publications
-category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+title: "El Giro computacional o: Cómo las Ciencias Sociales aprendieron a dejar de preocuparse y amar a la IA"
+collection: talks
+category: conferences
+permalink: /talks/2025-computational-turn-social-sciences
+excerpt: 'Una exploración del impacto de la inteligencia artificial en las ciencias sociales contemporáneas y cómo está transformando los métodos de investigación.'
+date: 2025-[month]-[day]
+venue: 'Universidad Nacional de Mar del Plata'
+location: 'Mar del Plata, Argentina'
+type: 'Conference Presentation'
+status: 'Upcoming'
+presentation_url: ''
+citation: 'Medina, N. L., & Rimedio Nuñez, S. (2025). "El Giro computacional o: Cómo las Ciencias Sociales aprendieron a dejar de preocuparse y amar a la IA." Universidad Nacional de Mar del Plata.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+**Conference/Event Details:**
+- Event: [Conference Name]
+- Session: [Session Information]
+- Date: 2025
+- Location: Universidad Nacional de Mar del Plata
+
+**Keywords:**
+- Inteligencia Artificial
+- Ciencias Sociales
+- Metodología de investigación
+- Giro computacional
+- Transformación digital
+
+---
+title: "Dimensiones culturales en las letras del tango y rock argentino: Una aproximación desde el Procesamiento del Lenguaje Natural"
+collection: talks
+category: conferences
+permalink: /talks/2025-cultural-dimensions-tango-rock
+excerpt: 'Análisis de las dimensiones culturales presentes en la música argentina a través de técnicas de procesamiento del lenguaje natural.'
+date: 2025-[month]-[day]
+venue: 'Universidad Nacional de Mar del Plata'
+location: 'Mar del Plata, Argentina'
+type: 'Conference Presentation'
+status: 'Upcoming'
+presentation_url: ''
+citation: 'Rimedio Nuñez, S., & Rosati, G. (2025). "Dimensiones culturales en las letras del tango y rock argentino: Una aproximación desde el Procesamiento del Lenguaje Natural." Universidad Nacional de Mar del Plata.'
+---
+
+**Conference/Event Details:**
+- Event: [Conference Name]
+- Session: [Session Information]
+- Date: 2025
+- Location: Universidad Nacional de Mar del Plata
+
+**Keywords:**
+- Procesamiento del Lenguaje Natural
+- Música argentina
+- Análisis cultural
+- Tango
+- Rock nacional
+- Análisis computacional de textos
