@@ -1,0 +1,287 @@
+# Canonical experience list — filtered by profile in templates
+# profiles: [consulting] | [ai-safety] | [consulting, ai-safety]
+# For entries with different framing per profile, bullets_consulting_* and bullets_aisafety_* override bullets_*
+
+- id: instant-analytics
+  org: "Instant Analytics"
+  location: "Italy"
+  start: "March 2026"
+  end: "present"
+  profiles: [consulting, ai-safety]
+  role_en: "Data Scientist"
+  role_es: "Científico de Datos"
+  role_it: "Data Scientist"
+  context_en: ""
+  context_es: ""
+  context_it: ""
+  bullets_en:
+    - "Market intelligence through NLP applied to large-scale text sources; client-facing analytical delivery."
+    - "Development of analytical pipelines and communication of findings to non-technical teams."
+  bullets_es:
+    - "Análisis de mercado con técnicas de NLP aplicadas a fuentes de texto a gran escala; entrega analítica orientada al cliente."
+    - "Desarrollo de pipelines analíticos y comunicación de hallazgos a equipos no técnicos."
+  bullets_it:
+    - "Market intelligence tramite NLP applicato a fonti testuali su larga scala; consegna analitica ai clienti."
+    - "Sviluppo di pipeline analitiche e comunicazione dei risultati a team non tecnici."
+
+- id: techo-idb
+  org: "Techo"
+  location: "Remote"
+  start: "2025"
+  end: "present"
+  profiles: [consulting, ai-safety]
+  role_en: "Data Scientist — Remote Sensing"
+  role_es: "Científico de Datos — Teledetección"
+  role_it: "Data Scientist — Telerilevamento"
+  context_en: "IDB-funded project (Inter-American Development Bank), in collaboration with the University of Twente"
+  context_es: "Proyecto financiado por el BID (Banco Interamericano de Desarrollo), en colaboración con la Universidad de Twente"
+  context_it: "Progetto finanziato dall'IDB (Banca Interamericana di Sviluppo), in collaborazione con l'Università di Twente"
+  bullets_en:
+    - "Leading the development of AI/ML remote-sensing models to automatically detect deprived urban areas and informal settlements across Latin American cities."
+    - "Coordinating a cross-institutional team spanning Techo (NGO), the IDB (funder), and the University of Twente (Netherlands, academic partner)."
+    - "Aligning technical work with policy and programmatic goals across institutional stakeholders."
+  bullets_es:
+    - "Liderazgo en el desarrollo de modelos de IA y teledetección para la detección automática de barrios populares y áreas urbanas precarias en América Latina."
+    - "Coordinación técnica entre tres instituciones: Techo (ONG), BID (financiador) y Universidad de Twente (Países Bajos, contraparte académica)."
+    - "Alineación entre stakeholders técnicos, institucionales y de campo."
+  bullets_it:
+    - "Responsabile dello sviluppo di modelli AI/ML di telerilevamento per il rilevamento automatico di insediamenti informali nelle città latinoamericane."
+    - "Coordinamento di un team cross-istituzionale tra Techo (ONG), IDB (finanziatore) e Università di Twente (Paesi Bassi, partner accademico)."
+    - "Allineamento del lavoro tecnico con gli obiettivi di policy e programmatici tra i vari stakeholder istituzionali."
+
+- id: gcba
+  org: "Government of the City of Buenos Aires"
+  location: "Buenos Aires"
+  start: "2023"
+  end: "2025"
+  profiles: [consulting, ai-safety]
+  role_en: "Data Scientist / Policy Analyst"
+  role_es: "Científico de Datos / Analista de Políticas"
+  role_it: "Data Scientist / Analista di Policy"
+  context_en: "Urban Development Secretariat; Ministry of Habitat and Human Development"
+  context_es: "Secretaría de Desarrollo Urbano; Ministerio de Hábitat y Desarrollo Humano"
+  context_it: "Segreteria per lo Sviluppo Urbano; Ministero dell'Habitat e dello Sviluppo Umano"
+  bullets_en:
+    - "Evaluation and monitoring of urban and habitat public policies using quantitative and geospatial methods."
+    - "Processing administrative and territorial data to inform management decisions."
+    - "Translating technical analysis into decision-relevant insights for policy stakeholders across institutional levels."
+  bullets_es:
+    - "Evaluación y monitoreo de políticas públicas urbanas y de hábitat con métodos cuantitativos y geoespaciales."
+    - "Procesamiento de datos administrativos y territoriales para informar decisiones de gestión."
+    - "Articulación entre áreas técnicas y de política, comunicando resultados a distintos niveles institucionales."
+  bullets_it:
+    - "Valutazione e monitoraggio di politiche pubbliche urbane e abitative con metodi quantitativi e geospaziali."
+    - "Elaborazione di dati amministrativi e territoriali per orientare le decisioni gestionali."
+    - "Traduzione delle analisi tecniche in insight rilevanti per i decisori politici a diversi livelli istituzionali."
+
+- id: corda-fellowship
+  org: "CORDA Democracy Fellowship — Apart Research & Odyssean Institute"
+  location: "Remote"
+  start: "Spring 2026"
+  end: "present"
+  profiles: [ai-safety]
+  role_en: "AI Governance Research Fellow"
+  role_es: "Investigador Fellow en Gobernanza de IA"
+  role_it: "Research Fellow in AI Governance"
+  context_en: ""
+  context_es: ""
+  context_it: ""
+  bullets_en:
+    - "Contributing to Phase 1 of The Odyssean Process for AI Governance: developing educational materials and decision-support tools for citizens' assemblies on AI (UK 2026, global 2027)."
+    - "Analysing expert elicitation data on AI governance: validating structured survey responses, identifying biases in weighting, running sensitivity analyses."
+    - "Coding qualitative expert responses, extracting scenarios and causal variables, and building causal loop diagrams tracing pathways from AI risk drivers to governance solutions."
+    - "Mentor: Jacob Haimes (Research Programs Lead, Apart Research; AI Safety Lead, Odyssean Institute)."
+  bullets_es:
+    - "Contribución a la Fase 1 del Proceso Odyssean para la Gobernanza de IA: desarrollo de materiales educativos y herramientas de apoyo a la decisión para asambleas ciudadanas sobre IA (UK 2026, global 2027)."
+    - "Análisis de datos de elicitación de expertos en gobernanza de IA: validación de respuestas estructuradas, identificación de sesgos en ponderación, análisis de sensibilidad."
+    - "Codificación de respuestas cualitativas de expertos, extracción de escenarios y variables causales, y construcción de diagramas de bucle causal."
+  bullets_it:
+    - "Contributo alla Fase 1 dell'Odyssean Process per la Governance dell'IA: sviluppo di materiali educativi e strumenti di supporto alle decisioni per assemblee civiche sull'IA (UK 2026, globale 2027)."
+    - "Analisi di dati di elicitazione di esperti in governance AI: validazione di risposte strutturate, identificazione di bias nella ponderazione, analisi di sensitività."
+    - "Codifica di risposte qualitative di esperti, estrazione di scenari e variabili causali, costruzione di diagrammi causali."
+
+- id: italian-aisc
+  org: "Italian AI Safety Community"
+  location: "Italy"
+  start: "2026"
+  end: "present"
+  profiles: [ai-safety]
+  role_en: "Founding Team Member"
+  role_es: "Miembro del Equipo Fundador"
+  role_it: "Membro del Team Fondatore"
+  context_en: ""
+  context_es: ""
+  context_it: ""
+  bullets_en:
+    - "Building the emerging AI safety community in Italy: outreach, events, and connecting researchers, practitioners, and policymakers."
+  bullets_es:
+    - "Construyendo la comunidad emergente de seguridad en IA en Italia: difusión, eventos y conexión de investigadores, profesionales y responsables de políticas."
+  bullets_it:
+    - "Costruzione della comunità emergente di AI safety in Italia: outreach, eventi e connessione tra ricercatori, professionisti e decisori politici."
+
+- id: baish
+  org: "BAISH — Buenos Aires AI Safety Hub"
+  location: "Argentina"
+  start: "2025"
+  end: "present"
+  profiles: [ai-safety]
+  role_en: "Member"
+  role_es: "Miembro"
+  role_it: "Membro"
+  context_en: ""
+  context_es: ""
+  context_it: ""
+  bullets_en:
+    - "Active member of the Buenos Aires AI safety research and community hub."
+  bullets_es:
+    - "Miembro activo del hub de investigación y comunidad de seguridad en IA de Buenos Aires."
+  bullets_it:
+    - "Membro attivo dell'hub di ricerca e comunità di AI safety di Buenos Aires."
+
+- id: bluedot
+  org: "BlueDot Impact"
+  location: "Remote"
+  start: "2026"
+  end: "2026"
+  profiles: [ai-safety]
+  role_en: "AGI Strategy Course — Graduate"
+  role_es: "Curso de Estrategia AGI — Graduado"
+  role_it: "Corso di Strategia AGI — Laureato"
+  context_en: ""
+  context_es: ""
+  context_it: ""
+  bullets_en:
+    - "Completed structured curriculum covering frontier AI risks, catastrophic and existential threat models, compute governance, international coordination, corporate governance of frontier labs, and AI policy under deep uncertainty."
+  bullets_es:
+    - "Currículum estructurado sobre riesgos de IA de frontera, modelos de amenazas catastróficas y existenciales, gobernanza computacional, coordinación internacional y política de IA bajo incertidumbre profunda."
+  bullets_it:
+    - "Curriculum strutturato su rischi dell'IA di frontiera, modelli di minacce catastrofiche ed esistenziali, governance computazionale, coordinamento internazionale e politica AI in condizioni di profonda incertezza."
+
+- id: molise
+  org: "University of Molise"
+  location: "Italy"
+  start: "Nov 2025"
+  end: "Mar 2026"
+  profiles: [consulting, ai-safety]
+  role_en: "Visiting Researcher"
+  role_es: "Investigador Visitante"
+  role_it: "Ricercatore Visitatore"
+  context_en: "Department of Economics — Moving Italianess Scholarship"
+  context_es: "Departamento de Economía — Beca Moving Italianess"
+  context_it: "Dipartimento di Economia — Borsa Moving Italianess"
+  bullets_en:
+    - "Research on AI applications for monitoring and evaluation of public policies, embedded in a team working on AI-assisted policy evaluation."
+  bullets_es:
+    - "Investigación sobre aplicaciones de IA al monitoreo y evaluación de políticas públicas."
+  bullets_it:
+    - "Ricerca su applicazioni dell'IA per il monitoraggio e la valutazione delle politiche pubbliche, all'interno di un team che lavora sulla valutazione assistita da IA."
+
+- id: ciai-unsam
+  org: "CIAI-UNSAM"
+  location: "Argentina"
+  start: "2025"
+  end: "present"
+  profiles: [consulting, ai-safety]
+  role_en: "Co-coordinator — Interdisciplinary Research Project"
+  role_es: "Co-coordinador — Proyecto de Investigación Interdisciplinario"
+  role_it: "Co-coordinatore — Progetto di Ricerca Interdisciplinare"
+  context_en: "National University of San Martín"
+  context_es: "Universidad Nacional de San Martín"
+  context_it: "Università Nazionale di San Martín"
+  bullets_en:
+    - "Building LULC (Land Use/Land Cover) trajectory typologies using edit distances and Transformers to identify deforestation and ecological transitions."
+    - "Co-leading project design, team coordination, and cross-disciplinary integration across social sciences, environmental science, and ML."
+  bullets_es:
+    - "Construcción de tipologías de trayectorias de uso y cobertura del suelo mediante distancias de edición y Transformers para identificar deforestación y transiciones ecológicas."
+    - "Co-liderazgo del diseño del proyecto, coordinación del equipo e integración interdisciplinaria entre ciencias sociales, ciencias ambientales y ML."
+  bullets_it:
+    - "Costruzione di tipologie di traiettorie di uso e copertura del suolo tramite distanze di edit e Transformers per identificare deforestazione e transizioni ecologiche."
+    - "Co-leadership del design del progetto, coordinamento del team e integrazione interdisciplinare tra scienze sociali, ambientali e ML."
+
+- id: factor-data
+  org: "Factor-Data — UNSAM"
+  location: "Argentina"
+  start: "2023"
+  end: "2025"
+  profiles: [consulting, ai-safety]
+  role_en: "Research Assistant"
+  role_es: "Asistente de Investigación"
+  role_it: "Assistente di Ricerca"
+  context_en: ""
+  context_es: ""
+  context_it: ""
+  bullets_en:
+    - "Applied NLP and ML to social-science research questions on the expansion of the agricultural frontier in Argentina."
+    - "Co-author on computational analysis of cultural dimensions in Argentine tango and rock lyrics."
+  bullets_es:
+    - "Aplicación de NLP y ML a preguntas de investigación en ciencias sociales sobre la expansión de la frontera agropecuaria en Argentina."
+    - "Co-autor en análisis computacional de dimensiones culturales en letras de tango y rock argentino."
+  bullets_it:
+    - "Applicazione di NLP e ML a domande di ricerca nelle scienze sociali sull'espansione della frontiera agricola in Argentina."
+    - "Co-autore di un'analisi computazionale delle dimensioni culturali nelle liriche di tango e rock argentino."
+
+- id: uba-lecturer
+  org: "University of Buenos Aires — School of Economics"
+  location: "Buenos Aires"
+  start: "2025"
+  end: "present"
+  profiles: [consulting, ai-safety]
+  role_en: "Lecturer (Professor by Contract)"
+  role_es: "Profesor por Contrato"
+  role_it: "Professore a Contratto"
+  context_en: ""
+  context_es: ""
+  context_it: ""
+  bullets_en:
+    - "Artificial Intelligence (2026, 2nd semester) — Master's in Applied Economics. Designing and delivering sessions on contemporary AI methods, applications, and their policy and economic implications."
+    - "Big Data and Machine Learning (2025, 1st semester) — Undergraduate. Built curriculum from the ground up, integrating hands-on workshops for mixed-background cohorts."
+  bullets_es:
+    - "Inteligencia Artificial (2026, 2º semestre) — Maestría en Economía Aplicada. Diseño y dictado de sesiones sobre métodos de IA contemporánea, aplicaciones e implicancias de política y económicas."
+    - "Big Data y Machine Learning (2025, 1er semestre) — Grado. Diseño del plan de estudios desde cero, con talleres prácticos para cohortes con formaciones diversas."
+  bullets_it:
+    - "Intelligenza Artificiale (2026, 2° semestre) — Master in Economia Applicata. Progettazione e erogazione di sessioni su metodi AI contemporanei, applicazioni e implicazioni politico-economiche."
+    - "Big Data e Machine Learning (2025, 1° semestre) — Laurea triennale. Costruzione del curriculum da zero con workshop pratici per coorti con background eterogenei."
+
+- id: educacion-earth
+  org: "educacion.earth"
+  location: "Remote"
+  start: "2024"
+  end: "present"
+  profiles: [consulting, ai-safety]
+  role_en: "Instructor — Geo Data Scientist Training Programme"
+  role_es: "Instructor — Programa de Formación en Geo Data Science"
+  role_it: "Istruttore — Programma di Formazione Geo Data Science"
+  context_en: "GeoDojo"
+  context_es: "GeoDojo"
+  context_it: "GeoDojo"
+  bullets_en:
+    - "Teaching applied AI and ML for Earth observation and environmental problems to international Spanish-speaking cohorts (150+ students to date)."
+    - "Designing modules that translate technical ML content for practitioners from non-technical backgrounds."
+  bullets_es:
+    - "Enseñanza de IA y ML aplicados a observación de la Tierra y problemas ambientales a cohortes internacionales de habla hispana (+150 estudiantes)."
+    - "Diseño de módulos que traducen contenido técnico de ML para profesionales sin formación técnica."
+  bullets_it:
+    - "Insegnamento di AI e ML applicati all'osservazione della Terra e a problemi ambientali a coorti internazionali di lingua spagnola (150+ studenti)."
+    - "Progettazione di moduli che traducono contenuti ML tecnici per professionisti non tecnici."
+
+- id: idaes-unsam
+  org: "IDAES — National University of San Martín (UNSAM)"
+  location: "Buenos Aires"
+  start: "2023"
+  end: "present"
+  profiles: [consulting, ai-safety]
+  role_en: "Graduate Teaching Assistant"
+  role_es: "Ayudante de Cátedra (Posgrado)"
+  role_it: "Assistente di Cattedra (Postlaurea)"
+  context_en: ""
+  context_es: ""
+  context_it: ""
+  bullets_en:
+    - "Master's-level courses: Introduction to Data Science for Social Scientists, Data Visualization, Machine Learning Fundamentals, Introduction to Data Modeling, and Data Processing in R."
+    - "One-on-one mentoring of students on applied projects, bridging technical content and social-science research questions."
+  bullets_es:
+    - "Cursos de posgrado: Introducción a la Ciencia de Datos para Científicos Sociales, Visualización de Datos, Fundamentos de Machine Learning, Introducción al Modelado de Datos y Procesamiento de Datos en R."
+    - "Tutorías individuales a estudiantes en proyectos aplicados."
+  bullets_it:
+    - "Corsi post-laurea: Introduzione alla Data Science per Scienze Sociali, Visualizzazione dei Dati, Fondamenti di Machine Learning, Introduzione alla Modellazione dei Dati, Elaborazione Dati in R."
+    - "Tutoraggio individuale di studenti su progetti applicati."

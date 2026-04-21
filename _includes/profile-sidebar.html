@@ -1,0 +1,53 @@
+{% assign author = site.author %}
+
+<div class="profile-sidebar">
+  <div class="profile-sidebar__avatar">
+    <img src="{{ '/images/' | append: author.avatar | prepend: site.baseurl }}" alt="{{ author.name }}" class="profile-sidebar__img">
+  </div>
+
+  <div class="profile-sidebar__content">
+    <h3 class="profile-sidebar__name">{{ author.name }}</h3>
+
+    {% if page.profile == "consulting" %}
+      {% if page.lang == "es" %}
+        <p class="profile-sidebar__bio">Científico de Datos · Políticas públicas, urbanismo, medioambiente.</p>
+        <p class="profile-sidebar__location"><i class="fas fa-fw fa-location-dot"></i> Buenos Aires / Italia</p>
+      {% elsif page.lang == "it" %}
+        <p class="profile-sidebar__bio">Data Scientist · Politiche pubbliche, urbanistica, ambiente.</p>
+        <p class="profile-sidebar__location"><i class="fas fa-fw fa-location-dot"></i> Buenos Aires / Italia</p>
+      {% else %}
+        <p class="profile-sidebar__bio">Data Scientist · Public policy, urbanism, environment.</p>
+        <p class="profile-sidebar__location"><i class="fas fa-fw fa-location-dot"></i> Buenos Aires / Italy</p>
+      {% endif %}
+      <div class="profile-sidebar__links">
+        <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope"></i> {{ author.email }}</a>
+        {% if author.linkedin %}<a href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank"><i class="fab fa-fw fa-linkedin"></i> LinkedIn</a>{% endif %}
+        {% if author.github %}<a href="https://github.com/{{ author.github }}" target="_blank"><i class="fab fa-fw fa-github"></i> GitHub</a>{% endif %}
+        <a href="{{ site.baseurl }}/files/cv-consulting.pdf" target="_blank"><i class="fas fa-fw fa-file-pdf"></i>
+          {% if page.lang == "es" %}Descargar CV{% elsif page.lang == "it" %}Scarica CV{% else %}Download CV{% endif %}
+        </a>
+      </div>
+
+    {% elsif page.profile == "ai-safety" %}
+      {% if page.lang == "es" %}
+        <p class="profile-sidebar__bio">Investigador en Gobernanza de IA · Constructor de comunidad · Docente.</p>
+        <p class="profile-sidebar__location"><i class="fas fa-fw fa-location-dot"></i> Buenos Aires / Italia</p>
+      {% elsif page.lang == "it" %}
+        <p class="profile-sidebar__bio">Ricercatore in AI Governance · Community builder · Docente.</p>
+        <p class="profile-sidebar__location"><i class="fas fa-fw fa-location-dot"></i> Buenos Aires / Italia</p>
+      {% else %}
+        <p class="profile-sidebar__bio">AI Governance Researcher · Community Builder · Educator.</p>
+        <p class="profile-sidebar__location"><i class="fas fa-fw fa-location-dot"></i> Buenos Aires / Italy</p>
+      {% endif %}
+      <div class="profile-sidebar__links">
+        <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope"></i> {{ author.email }}</a>
+        {% if author.github %}<a href="https://github.com/{{ author.github }}" target="_blank"><i class="fab fa-fw fa-github"></i> GitHub</a>{% endif %}
+        {% if author.bluesky %}<a href="https://bsky.app/profile/{{ author.bluesky }}" target="_blank"><i class="fas fa-fw fa-cloud"></i> Bluesky</a>{% endif %}
+        {% if author.linkedin %}<a href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank"><i class="fab fa-fw fa-linkedin"></i> LinkedIn</a>{% endif %}
+        <a href="{{ site.baseurl }}/files/cv-ai-safety.pdf" target="_blank"><i class="fas fa-fw fa-file-pdf"></i>
+          {% if page.lang == "es" %}Descargar CV{% elsif page.lang == "it" %}Scarica CV{% else %}Download CV{% endif %}
+        </a>
+      </div>
+    {% endif %}
+  </div>
+</div>

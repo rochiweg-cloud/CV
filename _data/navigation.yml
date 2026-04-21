@@ -1,31 +1,77 @@
-# The following is the order of the links in the header of the website.
-#
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-
-main:
-
-  - title: "Research"
-    url: /research/
-
-  #- title: "Publications"
-  # url: /publications/
-
-  #- title: "Talks"
-  # url: /talks/    
-
+consulting_en:
+  - title: "About"
+    url: /web/consulting/en/about/
+  - title: "Experience"
+    url: /web/consulting/en/experience/
+  - title: "Projects"
+    url: /web/consulting/en/projects/
   - title: "Teaching"
-    url: /teaching/    
-    
-  #- title: "Portfolio"
-  # url: /portfolio/
-        
-  #- title: "Blog Posts"
-  #  url: /year-archive/
-    
-  - title: "Resume"
-    url: /cv/
-    
-  #- title: "Guide"
-  #  url: /markdown/
+    url: /web/consulting/en/teaching/
+  - title: "Contact"
+    url: /web/consulting/en/contact/
+
+consulting_es:
+  - title: "Sobre mí"
+    url: /web/consulting/es/about/
+  - title: "Experiencia"
+    url: /web/consulting/es/experience/
+  - title: "Proyectos"
+    url: /web/consulting/es/projects/
+  - title: "Docencia"
+    url: /web/consulting/es/teaching/
+  - title: "Contacto"
+    url: /web/consulting/es/contact/
+
+consulting_it:
+  - title: "Chi sono"
+    url: /web/consulting/it/about/
+  - title: "Esperienza"
+    url: /web/consulting/it/experience/
+  - title: "Progetti"
+    url: /web/consulting/it/projects/
+  - title: "Didattica"
+    url: /web/consulting/it/teaching/
+  - title: "Contatti"
+    url: /web/consulting/it/contact/
+
+ai-safety_en:
+  - title: "About"
+    url: /web/ai-safety/en/about/
+  - title: "Experience"
+    url: /web/ai-safety/en/experience/
+  - title: "Projects"
+    url: /web/ai-safety/en/projects/
+  - title: "Teaching"
+    url: /web/ai-safety/en/teaching/
+  - title: "Publications"
+    url: /web/ai-safety/en/publications/
+  - title: "Contact"
+    url: /web/ai-safety/en/contact/
+
+ai-safety_es:
+  - title: "Sobre mí"
+    url: /web/ai-safety/es/about/
+  - title: "Experiencia"
+    url: /web/ai-safety/es/experience/
+  - title: "Proyectos"
+    url: /web/ai-safety/es/projects/
+  - title: "Docencia"
+    url: /web/ai-safety/es/teaching/
+  - title: "Publicaciones"
+    url: /web/ai-safety/es/publications/
+  - title: "Contacto"
+    url: /web/ai-safety/es/contact/
+
+ai-safety_it:
+  - title: "Chi sono"
+    url: /web/ai-safety/it/about/
+  - title: "Esperienza"
+    url: /web/ai-safety/it/experience/
+  - title: "Progetti"
+    url: /web/ai-safety/it/projects/
+  - title: "Didattica"
+    url: /web/ai-safety/it/teaching/
+  - title: "Pubblicazioni"
+    url: /web/ai-safety/it/publications/
+  - title: "Contatti"
+    url: /web/ai-safety/it/contact/

@@ -1,0 +1,33 @@
+- id: eman-2026
+  profiles: [consulting, ai-safety]
+  title: "AI-Based Land Cover Classification for Detecting Agricultural Frontier Expansion: Trajectory Analysis in Argentina"
+  venue_en: "10th International Scientific Conference EMAN 2026, University of Oxford, UK"
+  venue_es: "10ª Conferencia Científica Internacional EMAN 2026, Universidad de Oxford, Reino Unido"
+  venue_it: "10ª Conferenza Scientifica Internazionale EMAN 2026, Università di Oxford, Regno Unito"
+  date: "March 2026"
+  type: "conference"
+  note_en: "Peer-reviewed."
+  note_es: "Revisado por pares."
+  note_it: "Peer-reviewed."
+
+- id: computational-turn-2025
+  profiles: [consulting, ai-safety]
+  title_en: "The Computational Turn, or: How the Social Sciences Learned to Stop Worrying and Love AI"
+  title_es: "El giro computacional, o cómo las ciencias sociales aprendieron a amar la IA"
+  title_it: "La svolta computazionale, ovvero: come le scienze sociali hanno imparato ad amare l'IA"
+  venue_en: "IV Sociology Conference (IV Jornadas de Sociología), UNMdP"
+  venue_es: "IV Jornadas de Sociología, UNMdP"
+  venue_it: "IV Giornate di Sociologia, UNMdP"
+  date: "March 2025"
+  type: "conference"
+
+- id: tango-rock-2025
+  profiles: [consulting, ai-safety]
+  title_en: "Cultural Dimensions in Argentine Tango and Rock Lyrics: An NLP Approach"
+  title_es: "Dimensiones culturales en letras de tango y rock argentino: un enfoque NLP"
+  title_it: "Dimensioni culturali nelle liriche di tango e rock argentino: un approccio NLP"
+  venue_en: "IV Sociology Conference (IV Jornadas de Sociología), UNMdP"
+  venue_es: "IV Jornadas de Sociología, UNMdP"
+  venue_it: "IV Giornate di Sociologia, UNMdP"
+  date: "March 2025"
+  type: "conference"

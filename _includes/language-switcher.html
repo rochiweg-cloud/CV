@@ -1,0 +1,30 @@
+{% assign current_url = page.url %}
+{% assign profile = page.profile %}
+{% assign lang = page.lang %}
+{% assign page_key = page.page_key %}
+
+{% if profile and lang and page_key %}
+  {% assign en_url = site.baseurl | append: "/" | append: profile | append: "/en/" | append: page_key | append: "/" %}
+  {% assign es_url = site.baseurl | append: "/" | append: profile | append: "/es/" | append: page_key | append: "/" %}
+  {% assign it_url = site.baseurl | append: "/" | append: profile | append: "/it/" | append: page_key | append: "/" %}
+
+  <div class="language-switcher">
+    {% if lang == "en" %}
+      <span class="lang-pill lang-active">EN</span>
+    {% else %}
+      <a class="lang-pill" href="{{ en_url }}">EN</a>
+    {% endif %}
+
+    {% if lang == "es" %}
+      <span class="lang-pill lang-active">ES</span>
+    {% else %}
+      <a class="lang-pill" href="{{ es_url }}">ES</a>
+    {% endif %}
+
+    {% if lang == "it" %}
+      <span class="lang-pill lang-active">IT</span>
+    {% else %}
+      <a class="lang-pill" href="{{ it_url }}">IT</a>
+    {% endif %}
+  </div>
+{% endif %}

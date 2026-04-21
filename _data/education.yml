@@ -1,0 +1,73 @@
+degrees:
+  - id: epog
+    title_en: "Erasmus Mundus Joint Master — EPOG-JM"
+    title_es: "Máster Conjunto Erasmus Mundus — EPOG-JM"
+    title_it: "Master Congiunto Erasmus Mundus — EPOG-JM"
+    institution_en: "Economic Policies for the Global Bifurcation — EU-funded"
+    institution_es: "Políticas Económicas para la Bifurcación Global — financiado por la UE"
+    institution_it: "Politiche Economiche per la Biforcazione Globale — finanziato dall'UE"
+    location: "Europe"
+    year: "Admitted 2026"
+    year_es: "Admitido 2026"
+    year_it: "Ammesso 2026"
+
+  - id: ba-anthropology
+    title_en: "BA in Social and Cultural Anthropology"
+    title_es: "Licenciatura en Antropología Social y Cultural"
+    title_it: "Laurea in Antropologia Sociale e Culturale"
+    institution_en: "National University of San Martín (UNSAM)"
+    institution_es: "Universidad Nacional de San Martín (UNSAM)"
+    institution_it: "Università Nazionale di San Martín (UNSAM)"
+    location: "Argentina"
+    year: "2020–2025"
+    note_en: "Thesis (in progress): Modes of expansion of the agricultural frontier in Argentina."
+    note_es: "Tesis (en curso): Modos de expansión de la frontera agropecuaria en Argentina."
+    note_it: "Tesi (in corso): Modi di espansione della frontiera agricola in Argentina."
+
+  - id: diploma-ds
+    title_en: "Diploma in Data Science and Artificial Intelligence"
+    title_es: "Diplomatura en Ciencia de Datos e Inteligencia Artificial"
+    title_it: "Diploma in Data Science e Intelligenza Artificiale"
+    institution_en: "National University of San Martín (UNSAM)"
+    institution_es: "Universidad Nacional de San Martín (UNSAM)"
+    institution_it: "Università Nazionale di San Martín (UNSAM)"
+    location: "Argentina"
+    year: "2023"
+
+  - id: summer-school-ai
+    title_en: "First International Summer School on Artificial Intelligence"
+    title_es: "Primera Escuela Internacional de Verano en Inteligencia Artificial"
+    title_it: "Prima Scuola Estiva Internazionale sull'Intelligenza Artificiale"
+    institution_en: "UNSAM & UNAHUR"
+    institution_es: "UNSAM & UNAHUR"
+    institution_it: "UNSAM & UNAHUR"
+    location: "Argentina"
+    year: "Feb 2025"
+
+awards:
+  - id: moving-italianess
+    title_en: "Moving Italianess Scholarship"
+    title_es: "Beca Moving Italianess"
+    title_it: "Borsa Moving Italianess"
+    description_en: "Research stay at University of Molise, 2025–2026."
+    description_es: "Estancia de investigación en la Universidad de Molise, 2025–2026."
+    description_it: "Soggiorno di ricerca all'Università del Molise, 2025–2026."
+    year: "2025–2026"
+
+  - id: evc-cin
+    title_en: "EVC-CIN Scholarship (Stimulus for Scientific Vocation)"
+    title_es: "Beca EVC-CIN (Estímulo a las Vocaciones Científicas)"
+    title_it: "Borsa EVC-CIN (Stimolo alle Vocazioni Scientifiche)"
+    description_en: ""
+    description_es: ""
+    description_it: ""
+    year: "2024–2025"
+
+  - id: young-scholar
+    title_en: "Young Scholar Initiative Scholarship"
+    title_es: "Beca Young Scholar Initiative"
+    title_it: "Borsa Young Scholar Initiative"
+    description_en: "IV Sociology Conference Pre-Conference, 2025."
+    description_es: "Pre-Conferencia de las IV Jornadas de Sociología, 2025."
+    description_it: "Pre-Conferenza delle IV Giornate di Sociologia, 2025."
+    year: "2025"
