@@ -106,9 +106,9 @@
   start: "2026"
   end: "present"
   profiles: [ai-safety]
-  role_en: "Founding Team Member"
-  role_es: "Miembro del Equipo Fundador"
-  role_it: "Membro del Team Fondatore"
+  role_en: "Core Member"
+  role_es: "Miembro Core"
+  role_it: "Membro Core"
   context_en: ""
   context_es: ""
   context_it: ""
