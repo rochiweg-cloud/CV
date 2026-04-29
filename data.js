@@ -108,7 +108,7 @@ const DATA = {
     },
     {
       degree: { es: "Especialización en Métodos Cuantitativos y Ciencias Sociales Computacionales", en: "Specialization in Quantitative Methods and Computational Social Sciences" },
-      org: "IDAES",
+      org: { es: "Universidad Nacional de San Martín", en: "National University of San Martín (UNSAM)" },
       period: { es: "2024 – 2025 · Promedio: 9", en: "2024 – 2025 · GPA: 9/10" }
     },
     {
@@ -122,7 +122,7 @@ const DATA = {
   additionalTraining: [
     {
       title: { es: "Diseño Integral de Aplicaciones Móviles para Salud Humana", en: "Comprehensive Design of Mobile Applications for Human Health" },
-      org: "IDAES",
+      org: { es: "Universidad Nacional de San Martín", en: "National University of San Martín (UNSAM)" },
       period: { es: "En curso", en: "In progress" }
     },
     {
@@ -166,11 +166,11 @@ const DATA = {
     {
       id: "accesibilidad-salud",
       title: { es: "Predicción de Accesibilidad a la Salud con Machine Learning", en: "Predicting Healthcare Accessibility with Machine Learning" },
-      org: { es: "Trabajo final de la Especialización en Métodos Cuantitativos y Ciencias Sociales Computacionales · IDAES", en: "Final project for the Specialization in Quantitative Methods and Computational Social Sciences · IDAES" },
+      org: { es: "Trabajo final de la Especialización en Métodos Cuantitativos y Ciencias Sociales Computacionales · Universidad Nacional de San Martín", en: "Final project for the Specialization in Quantitative Methods and Computational Social Sciences · National University of San Martín (UNSAM)" },
       period: "2025",
       description: {
-        es: "Trabajo final de la Especialización en Métodos Cuantitativos y Ciencias Sociales Computacionales (IDAES). Estudio que entrena, compara e interpreta dos modelos de Machine Learning supervisado (Random Forest y XGBoost) para predecir la accesibilidad a la salud en aglomerados urbanos de Argentina, medida como el tiempo de traslado a pie al hospital y centro de salud más cercano. El trabajo combina datos del Censo 2010, registros de establecimientos productivos (SIPA-AFIP) y una base de vulnerabilidad sanitaria, con una variable espacial creada a partir de la distancia al centroide urbano.",
-        en: "Final project for the Specialization in Quantitative Methods and Computational Social Sciences (IDAES). Trains, compares, and interprets two supervised Machine Learning models (Random Forest and XGBoost) to predict healthcare accessibility in Argentine urban areas, measured as walking time to the nearest hospital and health center. The work combines data from the 2010 Census, productive establishment records (SIPA-AFIP), and a health vulnerability database, along with a spatial variable created from distance to the urban centroid."
+        es: "Trabajo final de la Especialización en Métodos Cuantitativos y Ciencias Sociales Computacionales (Universidad Nacional de San Martín). Estudio que entrena, compara e interpreta dos modelos de Machine Learning supervisado (Random Forest y XGBoost) para predecir la accesibilidad a la salud en aglomerados urbanos de Argentina, medida como el tiempo de traslado a pie al hospital y centro de salud más cercano. El trabajo combina datos del Censo 2010, registros de establecimientos productivos (SIPA-AFIP) y una base de vulnerabilidad sanitaria, con una variable espacial creada a partir de la distancia al centroide urbano.",
+        en: "Final project for the Specialization in Quantitative Methods and Computational Social Sciences (National University of San Martín). Trains, compares, and interprets two supervised Machine Learning models (Random Forest and XGBoost) to predict healthcare accessibility in Argentine urban areas, measured as walking time to the nearest hospital and health center. The work combines data from the 2010 Census, productive establishment records (SIPA-AFIP), and a health vulnerability database, along with a spatial variable created from distance to the urban centroid."
       },
       tags: ["Machine Learning", "R", "Random Forest", "XGBoost", { es: "Política Pública", en: "Public Policy" }, { es: "Salud", en: "Health" }],
       links: [
@@ -244,7 +244,7 @@ const DATA = {
         es: "Diseño y desarrollo de una página web para Becas para la Tribu, un proyecto de la antropóloga Micaela Gueler dedicado a la difusión de becas orientadas a estudiantes de ciencias sociales. Trabajo realizado de forma freelance, con foco en la accesibilidad, claridad informativa y experiencia de usuario en dispositivos móviles.",
         en: "Design and development of a website for Becas para la Tribu, a project led by anthropologist Micaela Gueler dedicated to disseminating scholarships aimed at social science students. Freelance work focused on accessibility, informational clarity, and mobile user experience."
       },
-      tags: [{ es: "Diseño web", en: "Web design" }, { es: "Comunicación", en: "Communication" }, { es: "Educación", en: "Education" }],
+      tags: [{ es: "Diseño web", en: "Web design" }, { es: "IA Generativa", en: "Generative AI" }, { es: "Comunicación", en: "Communication" }, { es: "Educación", en: "Education" }],
       links: [
         { label: { es: "Visitar el sitio", en: "Visit website" }, url: "https://agent-69ef88ea5bec5708ab55--becasparalatribu-bpt.netlify.app/" }
       ]
@@ -253,8 +253,8 @@ const DATA = {
 
   // ---------- NOTA SOBRE MATERIAL NO PÚBLICO (en tercera persona) ----------
   projectsNote: {
-    es: "Algunos proyectos en los que trabajó —como los desarrollados durante su paso por el Ministerio de Hábitat y Desarrollo Humano del GCBA— no se encuentran incluidos aquí porque sus productos (dashboards, indicadores, informes internos) pertenecen a las instituciones para las que fueron desarrollados.",
-    en: "Some projects she worked on —such as those developed during her time at the Ministry of Habitat and Human Development of the City of Buenos Aires— are not included here because their outputs (dashboards, indicators, internal reports) belong to the institutions for which they were developed."
+    es: "Algunos proyectos y materiales —como los desarrollados durante su paso por el Ministerio de Hábitat y Desarrollo Humano del GCBA— no se encuentran incluidos aquí porque esos productos (dashboards, indicadores, informes internos, artículos) pertenecen a las instituciones para las que fueron desarrollados.",
+    en: "Some projects and materials —such as those developed during her time at the Ministry of Habitat and Human Development of the City of Buenos Aires— are not included here because those outputs (dashboards, indicators, internal reports, articles) belong to the institutions for which they were developed."
   },
 
   // ---------- TEXTOS DE LA INTERFAZ ----------
