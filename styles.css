@@ -117,34 +117,35 @@ header.site-header {
    ============================================================ */
 .profile-card {
   text-align: center;
-  padding: 2.5rem 2rem;
+  padding: 1.1rem 2rem 1.3rem;
   border-bottom: 1px solid var(--color-border);
   background: linear-gradient(180deg, #f7f5ef 0%, var(--color-bg) 100%);
 }
 
 .profile-photo {
-  width: 180px;
-  height: 180px;
+  width: 95px;
+  height: 95px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #fff;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .profile-name {
   font-family: var(--font-display);
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: 500;
   letter-spacing: 0.01em;
   color: var(--color-text);
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.2rem;
+  line-height: 1.1;
 }
 
 .profile-tagline {
   color: var(--color-muted);
-  font-size: 0.98rem;
-  margin-bottom: 0.4rem;
+  font-size: 0.92rem;
+  margin-bottom: 0.2rem;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -152,30 +153,30 @@ header.site-header {
 
 .profile-location {
   color: var(--color-muted);
-  font-size: 0.9rem;
-  margin-bottom: 1.2rem;
+  font-size: 0.82rem;
+  margin-bottom: 0.8rem;
   font-style: italic;
 }
 
 .contact-bar {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.7rem;
+  gap: 0.5rem;
   justify-content: center;
-  margin-bottom: 1.2rem;
+  margin-bottom: 0.8rem;
 }
 
 .contact-bar a {
   display: inline-flex;
   align-items: center;
-  gap: 0.45rem;
-  padding: 0.55rem 1rem;
+  gap: 0.4rem;
+  padding: 0.4rem 0.85rem;
   background: #fff;
   border: 1px solid var(--color-border);
   border-radius: 999px;
   color: var(--color-text);
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   transition: all 0.2s ease;
 }
 
@@ -187,8 +188,8 @@ header.site-header {
 }
 
 .contact-bar svg {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   flex-shrink: 0;
 }
 
@@ -203,9 +204,9 @@ header.site-header {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  padding: 0.7rem 1.4rem;
+  padding: 0.55rem 1.2rem;
   border-radius: var(--radius);
-  font-size: 0.92rem;
+  font-size: 0.88rem;
   font-weight: 500;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -242,7 +243,7 @@ header.site-header {
 main {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 3rem 2rem 5rem;
+  padding: 1.8rem 2rem 5rem;
 }
 
 section {
@@ -295,6 +296,8 @@ p { margin-bottom: 1rem; }
   line-height: 1.75;
   color: var(--color-text);
   max-width: 800px;
+  text-align: justify;
+  hyphens: auto;
 }
 
 /* ============================================================
@@ -466,6 +469,8 @@ p { margin-bottom: 1rem; }
   line-height: 1.7;
   margin-bottom: 1.2rem;
   font-size: 0.97rem;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .project-tags {
@@ -560,8 +565,8 @@ footer {
 @media (max-width: 700px) {
   h1 { font-size: 2rem; }
   h2 { font-size: 1.5rem; }
-  .profile-name { font-size: 1.8rem; }
-  .profile-photo { width: 140px; height: 140px; }
+  .profile-name { font-size: 1.5rem; }
+  .profile-photo { width: 90px; height: 90px; }
   main { padding: 2rem 1.2rem 3rem; }
   .nav-container { padding: 1rem 1.2rem; gap: 1rem; }
   .nav-links { gap: 1.2rem; }

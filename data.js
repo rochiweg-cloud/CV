@@ -12,17 +12,21 @@ const DATA = {
     en: "Researcher · Data Analyst · Project management and evaluation"
   },
   location: "CABA, Argentina",
-  email: "rochiweg@gmail.com",
+  email: "rociobwegman@gmail.com",
   whatsapp: "+5491126781090",
   whatsappDisplay: "+54 11 2678 1090",
   linkedin: "https://www.linkedin.com/in/rocío-wegman-806643268/",
-  cvFile: "files/cv-rocio-wegman.docx",
+  // CV en dos idiomas — el botón descarga el que corresponde al idioma activo
+  cvFile: {
+    es: "files/cv-rocio-wegman-es.pdf",
+    en: "files/cv-rocio-wegman-en.pdf"
+  },
   profileImage: "images/profile.jpg",
 
-  // ---------- PERFIL PROFESIONAL ----------
+  // ---------- PERFIL PROFESIONAL (en tercera persona) ----------
   about: {
-    es: `Socióloga con experiencia en investigación aplicada, análisis de datos y evaluación de proyectos. Convierto datos complejos y problemas abiertos en preguntas claras, indicadores útiles y resultados comunicables a audiencias diversas. Integro mirada sociológica y pensamiento reflexivo con dominio técnico de herramientas de datos y entornos digitales. Busco sumarme a equipos interdisciplinarios que generen evidencia para la toma de decisiones.`,
-    en: `Sociologist with experience in applied research, data analysis, and project evaluation. I turn complex data and open-ended problems into clear questions, useful indicators, and results communicable to diverse audiences. I combine a sociological perspective and reflective thinking with technical command of data tools and digital environments. I'm looking to join interdisciplinary teams that generate evidence for decision-making.`
+    es: `Socióloga con experiencia en investigación aplicada, análisis de datos y evaluación de proyectos. Convierte datos complejos y problemas abiertos en preguntas claras, indicadores útiles y resultados comunicables a audiencias diversas. Integra mirada sociológica y pensamiento reflexivo con dominio técnico de herramientas de datos y entornos digitales. Busca sumarse a equipos interdisciplinarios que generen evidencia para la toma de decisiones.`,
+    en: `Sociologist with experience in applied research, data analysis, and project evaluation. Turns complex data and open-ended problems into clear questions, useful indicators, and results communicable to diverse audiences. Combines a sociological perspective and reflective thinking with technical command of data tools and digital environments. Looking to join interdisciplinary teams that generate evidence for decision-making.`
   },
 
   // ---------- EXPERIENCIA ----------
@@ -157,7 +161,7 @@ const DATA = {
   ],
 
   // ---------- PROYECTOS ----------
-  // Orden importante: el de accesibilidad va primero
+  // Orden: accesibilidad → umbrales → ChatGPT → empleo doméstico → trabajo plataformizado → becas
   projects: [
     {
       id: "accesibilidad-salud",
@@ -165,13 +169,13 @@ const DATA = {
       org: { es: "Trabajo final de la Especialización en Métodos Cuantitativos y Ciencias Sociales Computacionales · IDAES", en: "Final project for the Specialization in Quantitative Methods and Computational Social Sciences · IDAES" },
       period: "2025",
       description: {
-        es: "Trabajo final de la Especialización en Métodos Cuantitativos y Ciencias Sociales Computacionales (IDAES). Estudio que entrena, compara e interpreta dos modelos de Machine Learning supervisado (Random Forest y XGBoost) para predecir la accesibilidad a la salud en aglomerados urbanos de Argentina, medida como el tiempo de traslado a pie al hospital y centro de salud más cercano. El trabajo combina datos del Censo 2010, registros de establecimientos productivos (SIPA-AFIP) y una base de vulnerabilidad sanitaria, con una variable espacial creada a partir de la distancia al centroide urbano. Los resultados muestran que la centralidad geográfica del radio censal es uno de los principales determinantes del acceso, reforzando una lógica centro-periferia en la distribución de los efectores de salud.",
-        en: "Final project for the Specialization in Quantitative Methods and Computational Social Sciences (IDAES). Trains, compares, and interprets two supervised Machine Learning models (Random Forest and XGBoost) to predict healthcare accessibility in Argentine urban areas, measured as walking time to the nearest hospital and health center. The work combines data from the 2010 Census, productive establishment records (SIPA-AFIP), and a health vulnerability database, along with a spatial variable created from distance to the urban centroid. Results show that the geographical centrality of the census tract is one of the main determinants of access, reinforcing a center-periphery logic in the distribution of healthcare facilities."
+        es: "Trabajo final de la Especialización en Métodos Cuantitativos y Ciencias Sociales Computacionales (IDAES). Estudio que entrena, compara e interpreta dos modelos de Machine Learning supervisado (Random Forest y XGBoost) para predecir la accesibilidad a la salud en aglomerados urbanos de Argentina, medida como el tiempo de traslado a pie al hospital y centro de salud más cercano. El trabajo combina datos del Censo 2010, registros de establecimientos productivos (SIPA-AFIP) y una base de vulnerabilidad sanitaria, con una variable espacial creada a partir de la distancia al centroide urbano.",
+        en: "Final project for the Specialization in Quantitative Methods and Computational Social Sciences (IDAES). Trains, compares, and interprets two supervised Machine Learning models (Random Forest and XGBoost) to predict healthcare accessibility in Argentine urban areas, measured as walking time to the nearest hospital and health center. The work combines data from the 2010 Census, productive establishment records (SIPA-AFIP), and a health vulnerability database, along with a spatial variable created from distance to the urban centroid."
       },
       tags: ["Machine Learning", "R", "Random Forest", "XGBoost", { es: "Política Pública", en: "Public Policy" }, { es: "Salud", en: "Health" }],
       links: [
         { label: { es: "Leer el paper (PDF)", en: "Read paper (PDF)" }, url: "files/accesibilidad-salud-ml.pdf" },
-        { label: { es: "Ver código en GitHub", en: "View code on GitHub" }, url: "https://github.com/rochiweg-cloud" }
+        { label: { es: "Ver código en GitHub", en: "View code on GitHub" }, url: "https://github.com/rochiweg-cloud/ml-vulnerabilidad-territorial" }
       ]
     },
     {
@@ -180,8 +184,8 @@ const DATA = {
       org: { es: "Núcleo sobre Tecnologías Digitales, Cultura y Sociedad (EIDAES-UNSAM) · OISTE · Coordinado por Marcelo Urresti y Fernando Peirone", en: "Center on Digital Technologies, Culture and Society (EIDAES-UNSAM) · OISTE · Coordinated by Marcelo Urresti and Fernando Peirone" },
       period: "2024 — 2025",
       description: {
-        es: "Investigación realizada en el marco del Núcleo sobre Tecnologías Digitales, Cultura y Sociedad (EIDAES-UNSAM) y el Observatorio Interuniversitario de Sociedad, Tecnología y Educación (OISTE), bajo la dirección de Marcelo Urresti y Fernando Peirone. Estudio cualitativo sobre cómo la interacción de los preadolescentes con tecnologías digitales reconfigura los procesos de socialización primaria y las relaciones intergeneracionales. A partir de entrevistas en profundidad y grupos focales realizados en Buenos Aires con preadolescentes, madres, padres y docentes, el proyecto explora los imaginarios, prácticas y tensiones que emergen en hogares y escuelas atravesados por la tecnosociabilidad. Publicado como número especial de la revista Ti. Futuros Comunes (2025), el trabajo articula dos generaciones de sociólogos y combina herramientas metodológicas tradicionales con recursos novedosos vinculados a la Inteligencia Artificial.",
-        en: "Research carried out within the Center on Digital Technologies, Culture and Society (EIDAES-UNSAM) and the Inter-University Observatory on Society, Technology and Education (OISTE), under the direction of Marcelo Urresti and Fernando Peirone. Qualitative study on how preadolescents' interaction with digital technologies reconfigures primary socialization processes and intergenerational relationships. Based on in-depth interviews and focus groups conducted in Buenos Aires with preadolescents, mothers, fathers, and teachers, the project explores the imaginaries, practices, and tensions emerging in households and schools shaped by technosociability. Published as a special issue of Ti. Futuros Comunes (2025), the work brings together two generations of sociologists and combines traditional methodological tools with novel resources linked to Artificial Intelligence."
+        es: "Investigación realizada en el marco del Núcleo sobre Tecnologías Digitales, Cultura y Sociedad (EIDAES-UNSAM) y el Observatorio Interuniversitario de Sociedad, Tecnología y Educación (OISTE), bajo la dirección de Marcelo Urresti y Fernando Peirone. Estudio cualitativo sobre cómo la interacción de los preadolescentes con tecnologías digitales reconfigura los procesos de socialización primaria y las relaciones intergeneracionales. A partir de entrevistas en profundidad y grupos focales realizados en Buenos Aires con preadolescentes, madres, padres y docentes, el proyecto explora los imaginarios, prácticas y tensiones que emergen en hogares y escuelas atravesados por la tecnosociabilidad. Forma parte de un libro colectivo en proceso de publicación; sus primeros avances fueron publicados como número especial de la revista Ti. Futuros Comunes (2025).",
+        en: "Research carried out within the Center on Digital Technologies, Culture and Society (EIDAES-UNSAM) and the Inter-University Observatory on Society, Technology and Education (OISTE), under the direction of Marcelo Urresti and Fernando Peirone. Qualitative study on how preadolescents' interaction with digital technologies reconfigures primary socialization processes and intergenerational relationships. Based on in-depth interviews and focus groups conducted in Buenos Aires with preadolescents, mothers, fathers, and teachers, the project explores the imaginaries, practices, and tensions emerging in households and schools shaped by technosociability. The work is part of a forthcoming collective book; initial findings were published as a special issue of Ti. Futuros Comunes (2025)."
       },
       tags: [{ es: "Investigación cualitativa", en: "Qualitative research" }, { es: "Sociología", en: "Sociology" }, { es: "Tecnología", en: "Technology" }, { es: "Educación", en: "Education" }],
       links: [
@@ -190,17 +194,31 @@ const DATA = {
       ]
     },
     {
+      id: "chatgpt-educacion",
+      title: { es: "ChatGPT y Educación: Adopción y usos en estudiantes argentinos", en: "ChatGPT and Education: Adoption and uses by Argentine students" },
+      org: { es: "Centro de Estudios sobre Capitalismo, Tecnología y Sociedad (UMAI) · Coautoría con Mariano Zukerfeld · Publicado en Argumentos. Revista de crítica social (IIGG-UBA)", en: "Center for Studies on Capitalism, Technology and Society (UMAI) · Co-authored with Mariano Zukerfeld · Published in Argumentos. Journal of Social Critique (IIGG-UBA)" },
+      period: "2025",
+      description: {
+        es: "Artículo desarrollado en el marco del Centro de Estudios sobre Capitalismo, Tecnología y Sociedad (UMAI), en coautoría con Mariano Zukerfeld. Está basado en una encuesta nacional —pionera en Argentina— sobre los usos educativos de ChatGPT entre estudiantes de grado y posgrado. El trabajo inscribe a la inteligencia artificial generativa en la fase de plataformas del capitalismo digital y analiza la frecuencia de uso, los tipos de tareas para las que se utiliza, las representaciones sobre la productividad horaria, los niveles de conformidad y las prácticas de chequeo de información.",
+        en: "Article developed at the Center for Studies on Capitalism, Technology and Society (UMAI), co-authored with Mariano Zukerfeld. It is based on a national survey —the first of its kind in Argentina— on the educational uses of ChatGPT among undergraduate and graduate students. The work situates generative artificial intelligence within the platform phase of digital capitalism and analyzes usage frequency, types of tasks, perceptions of hourly productivity, levels of satisfaction, and information-checking practices."
+      },
+      tags: [{ es: "IA Generativa", en: "Generative AI" }, { es: "Educación", en: "Education" }, { es: "Encuestas", en: "Surveys" }, { es: "Análisis cuantitativo", en: "Quantitative analysis" }],
+      links: [
+        { label: { es: "Leer el artículo (PDF)", en: "Read article (PDF)" }, url: "files/chatgpt-educacion.pdf" }
+      ]
+    },
+    {
       id: "empleo-domestico",
       title: { es: "Digitalización, Plataformización y Automatización del trabajo en Empleo Doméstico", en: "Digitalization, Platformization and Automation of Work in Domestic Employment" },
       org: { es: "Centro de Estudios sobre Capitalismo, Tecnología y Sociedad (UMAI) · Coautoría con Guillermina Yansen, Mariano Fredes y Gonzalo Granara", en: "Center for Studies on Capitalism, Technology and Society (UMAI) · Co-authored with Guillermina Yansen, Mariano Fredes and Gonzalo Granara" },
       period: "2024",
       description: {
-        es: "Artículo desarrollado en el marco del Centro de Estudios sobre Capitalismo, Tecnología y Sociedad (UMAI), donde participo como investigadora voluntaria. Caracteriza empíricamente las tres tendencias del trabajo vinculadas a las tecnologías digitales —digitalización, plataformización y automatización— en el empleo doméstico y las tareas de cuidado en Argentina. Se apoya en una encuesta realizada en 2023 a trabajadoras domésticas con perfil en Zolvers, principal plataforma de intermediación del sector, complementada con datos de la Encuesta Permanente de Hogares. Los hallazgos muestran una amplia digitalización en la ocupación, peores condiciones cuando hay mediación de plataformas (especialmente menores ingresos), y una automatización actual de tareas manuales rutinarias junto con la percepción de que la automatización futura sería perjudicial.",
-        en: "Article developed at the Center for Studies on Capitalism, Technology and Society (UMAI), where I participate as a volunteer researcher. Empirically characterizes the three labor trends linked to digital technologies —digitalization, platformization, and automation— in domestic work and care tasks in Argentina. It draws on a 2023 survey of domestic workers with profiles on Zolvers, the main job-intermediation platform in the sector, complemented with data from the Permanent Household Survey. Findings show extensive digitalization in the occupation, worse conditions when there is platform mediation (especially lower earnings), and current automation of routine manual tasks alongside the perception that future automation would be detrimental."
+        es: "Artículo desarrollado en el marco del Centro de Estudios sobre Capitalismo, Tecnología y Sociedad (UMAI), donde participa como investigadora voluntaria. Caracteriza empíricamente las tres tendencias del trabajo vinculadas a las tecnologías digitales —digitalización, plataformización y automatización— en el empleo doméstico y las tareas de cuidado en Argentina. Se apoya en una encuesta realizada en 2023 a trabajadoras domésticas con perfil en Zolvers, principal plataforma de intermediación del sector, complementada con datos de la Encuesta Permanente de Hogares.",
+        en: "Article developed at the Center for Studies on Capitalism, Technology and Society (UMAI), where she participates as a volunteer researcher. Empirically characterizes the three labor trends linked to digital technologies —digitalization, platformization, and automation— in domestic work and care tasks in Argentina. It draws on a 2023 survey of domestic workers with profiles on Zolvers, the main job-intermediation platform in the sector, complemented with data from the Permanent Household Survey."
       },
       tags: [{ es: "Sociología del trabajo", en: "Sociology of work" }, { es: "Empleo doméstico", en: "Domestic work" }, { es: "Plataformización", en: "Platformization" }, { es: "Encuestas", en: "Surveys" }],
       links: [
-        { label: { es: "Leer el artículo (DOCX)", en: "Read article (DOCX)" }, url: "files/empleo-domestico-tendencias.docx" }
+        { label: { es: "Leer el artículo (PDF)", en: "Read article (PDF)" }, url: "files/empleo-domestico-tendencias.pdf" }
       ]
     },
     {
@@ -209,26 +227,12 @@ const DATA = {
       org: { es: "Centro de Estudios sobre Capitalismo, Tecnología y Sociedad (UMAI) · Coautoría con Mariano Zukerfeld · Publicado en CESOT", en: "Center for Studies on Capitalism, Technology and Society (UMAI) · Co-authored with Mariano Zukerfeld · Published in CESOT" },
       period: "2025",
       description: {
-        es: "Artículo desarrollado en el marco del Centro de Estudios sobre Capitalismo, Tecnología y Sociedad (UMAI), en coautoría con Mariano Zukerfeld. Compara los rasgos sociodemográficos, las habilidades laborales percibidas como importantes y los determinantes salariales en tres ocupaciones con distinto grado de mediación digital: servicio doméstico, trabajo informático y educación superior a distancia. A partir del análisis de dos encuestas con cuestionarios compatibles (PIP 2023 y PICTO 2024), se aplican modelos de regresión que muestran una fuerte brecha salarial por género y un impacto positivo de las habilidades sociales y digitales sobre los ingresos, mientras que los años de educación formal y la mediación de plataformas no presentan efectos salariales significativos.",
-        en: "Article developed at the Center for Studies on Capitalism, Technology and Society (UMAI), co-authored with Mariano Zukerfeld. Compares the sociodemographic characteristics, perceived important labor skills, and wage determinants in three occupations with different degrees of digital mediation: domestic service, IT work, and distance higher education. Based on the analysis of two surveys with compatible questionnaires (PIP 2023 and PICTO 2024), regression models reveal a strong gender wage gap and a positive impact of social and digital skills on earnings, while years of formal education and platform mediation show no significant wage effects."
+        es: "Artículo desarrollado en el marco del Centro de Estudios sobre Capitalismo, Tecnología y Sociedad (UMAI), en coautoría con Mariano Zukerfeld. Compara los rasgos sociodemográficos, las habilidades laborales percibidas como importantes y los determinantes salariales en tres ocupaciones con distinto grado de mediación digital: servicio doméstico, trabajo informático y educación superior a distancia. La investigación se apoya en la armonización y el análisis comparado de dos encuestas independientes pero con cuestionarios compatibles: la encuesta PIP (2023), enfocada en mapear las tendencias de digitalización, plataformización y automatización en distintos sectores, y la encuesta PICTO (2024), centrada específicamente en trabajadores con actividades mediadas por plataformas. Sobre estos datos se aplican modelos de regresión lineal para identificar los determinantes del ingreso horario.",
+        en: "Article developed at the Center for Studies on Capitalism, Technology and Society (UMAI), co-authored with Mariano Zukerfeld. Compares the sociodemographic characteristics, perceived important labor skills, and wage determinants in three occupations with different degrees of digital mediation: domestic service, IT work, and distance higher education. The research relies on the harmonization and comparative analysis of two independent surveys with compatible questionnaires: the PIP survey (2023), focused on mapping digitalization, platformization, and automation trends across sectors, and the PICTO survey (2024), specifically aimed at workers in platform-mediated activities. Linear regression models are applied to these data to identify the determinants of hourly earnings."
       },
       tags: [{ es: "Sociología del trabajo", en: "Sociology of work" }, { es: "Análisis cuantitativo", en: "Quantitative analysis" }, { es: "Plataformización", en: "Platformization" }, { es: "Género", en: "Gender" }],
       links: [
         { label: { es: "Leer el artículo (PDF)", en: "Read article (PDF)" }, url: "files/trabajo-plataformizado.pdf" }
-      ]
-    },
-    {
-      id: "chatgpt-educacion",
-      title: { es: "ChatGPT y Educación: Adopción y usos en estudiantes argentinos", en: "ChatGPT and Education: Adoption and uses by Argentine students" },
-      org: { es: "Centro de Estudios sobre Capitalismo, Tecnología y Sociedad (UMAI) · Coautoría con Mariano Zukerfeld · Publicado en Argumentos. Revista de crítica social (IIGG-UBA)", en: "Center for Studies on Capitalism, Technology and Society (UMAI) · Co-authored with Mariano Zukerfeld · Published in Argumentos. Journal of Social Critique (IIGG-UBA)" },
-      period: "2025",
-      description: {
-        es: "Artículo desarrollado en el marco del Centro de Estudios sobre Capitalismo, Tecnología y Sociedad (UMAI), en coautoría con Mariano Zukerfeld. Basado en una encuesta nacional —pionera en Argentina— sobre los usos educativos de ChatGPT entre estudiantes de grado y posgrado. El trabajo inscribe a la inteligencia artificial generativa en la fase de plataformas del capitalismo digital y analiza la frecuencia de uso, los tipos de tareas para las que se utiliza, las representaciones sobre la productividad horaria, los niveles de conformidad y las prácticas de chequeo de información. Los resultados muestran un uso ampliamente extendido, importantes ganancias de productividad percibidas y una conformidad mayor con la utilidad y relevancia de las respuestas que con su precisión y veracidad.",
-        en: "Article developed at the Center for Studies on Capitalism, Technology and Society (UMAI), co-authored with Mariano Zukerfeld. Based on a national survey —the first of its kind in Argentina— on the educational uses of ChatGPT among undergraduate and graduate students. The work situates generative artificial intelligence within the platform phase of digital capitalism and analyzes usage frequency, types of tasks, perceptions of hourly productivity, levels of satisfaction, and information-checking practices. Results show widespread use, significant perceived productivity gains, and greater satisfaction with the usefulness and relevance of responses than with their accuracy and truthfulness."
-      },
-      tags: [{ es: "IA Generativa", en: "Generative AI" }, { es: "Educación", en: "Education" }, { es: "Encuestas", en: "Surveys" }, { es: "Análisis cuantitativo", en: "Quantitative analysis" }],
-      links: [
-        { label: { es: "Leer el artículo (PDF)", en: "Read article (PDF)" }, url: "files/chatgpt-educacion.pdf" }
       ]
     },
     {
@@ -247,10 +251,10 @@ const DATA = {
     }
   ],
 
-  // ---------- NOTA SOBRE MATERIAL NO PÚBLICO ----------
+  // ---------- NOTA SOBRE MATERIAL NO PÚBLICO (en tercera persona) ----------
   projectsNote: {
-    es: "Algunos proyectos en los que trabajé —como los desarrollados durante mi paso por el Ministerio de Hábitat y Desarrollo Humano del GCBA— no se incluyen aquí porque sus productos (dashboards, indicadores, informes internos) pertenecen a las instituciones para las que fueron desarrollados. Puedo describirlos con más detalle en una conversación.",
-    en: "Some projects I worked on —such as those developed during my time at the Ministry of Habitat and Human Development of the City of Buenos Aires— are not included here because their outputs (dashboards, indicators, internal reports) belong to the institutions for which they were developed. I'm happy to describe them in more detail in a conversation."
+    es: "Algunos proyectos en los que trabajó —como los desarrollados durante su paso por el Ministerio de Hábitat y Desarrollo Humano del GCBA— no se encuentran incluidos aquí porque sus productos (dashboards, indicadores, informes internos) pertenecen a las instituciones para las que fueron desarrollados.",
+    en: "Some projects she worked on —such as those developed during her time at the Ministry of Habitat and Human Development of the City of Buenos Aires— are not included here because their outputs (dashboards, indicators, internal reports) belong to the institutions for which they were developed."
   },
 
   // ---------- TEXTOS DE LA INTERFAZ ----------
