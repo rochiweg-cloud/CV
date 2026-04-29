@@ -253,8 +253,8 @@ const DATA = {
 
   // ---------- NOTA SOBRE MATERIAL NO PÚBLICO (en tercera persona) ----------
   projectsNote: {
-    es: "Algunos proyectos y materiales —como los desarrollados durante su paso por el Ministerio de Hábitat y Desarrollo Humano del GCBA— no se encuentran incluidos aquí porque esos productos (dashboards, indicadores, informes internos, artículos) pertenecen a las instituciones para las que fueron desarrollados.",
-    en: "Some projects and materials —such as those developed during her time at the Ministry of Habitat and Human Development of the City of Buenos Aires— are not included here because those outputs (dashboards, indicators, internal reports, articles) belong to the institutions for which they were developed."
+    es: "Algunos trabajos no se incluyen aquí porque su difusión corresponde a las instituciones para las que fueron desarrollados, como los elaborados en el Ministerio de Hábitat y Desarrollo Humano del GCBA.",
+    en: "Some works are not included here because their dissemination is reserved to the institutions for which they were developed, such as those produced at the Ministry of Habitat and Human Development of the City of Buenos Aires."
   },
 
   // ---------- TEXTOS DE LA INTERFAZ ----------
