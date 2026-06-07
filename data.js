@@ -22,13 +22,13 @@ const DATA = {
     en: "files/cv-rocio-wegman-en.pdf"
   },
   profileImage: "images/profile.jpg",
-
+ 
   // ---------- PERFIL PROFESIONAL (en tercera persona) ----------
   about: {
     es: `Socióloga con experiencia en investigación aplicada, análisis de datos y evaluación de proyectos. Convierte datos complejos y problemas abiertos en preguntas claras, indicadores útiles y resultados comunicables a audiencias diversas. Integra mirada sociológica y pensamiento reflexivo con dominio técnico de herramientas de datos y entornos digitales. Busca sumarse a equipos interdisciplinarios que generen evidencia para la toma de decisiones.`,
     en: `Sociologist with experience in applied research, data analysis, and project evaluation. Turns complex data and open-ended problems into clear questions, useful indicators, and results communicable to diverse audiences. Combines a sociological perspective and reflective thinking with technical command of data tools and digital environments. Looking to join interdisciplinary teams that generate evidence for decision-making.`
   },
-
+ 
   // ---------- EXPERIENCIA ----------
   experience: [
     {
@@ -98,7 +98,7 @@ const DATA = {
       }
     }
   ],
-
+ 
   // ---------- FORMACIÓN ----------
   education: [
     {
@@ -117,7 +117,7 @@ const DATA = {
       period: "2020"
     }
   ],
-
+ 
   // ---------- FORMACIÓN COMPLEMENTARIA ----------
   additionalTraining: [
     {
@@ -141,7 +141,7 @@ const DATA = {
       period: { es: "2025 · Promedio: 9,5", en: "2025 · GPA: 9.5/10" }
     }
   ],
-
+ 
   // ---------- HABILIDADES ----------
   skills: [
     {
@@ -153,15 +153,15 @@ const DATA = {
       items: { es: "Microsoft 365 · Prompt engineering · Automatización · Web scraping", en: "Microsoft 365 · Prompt engineering · Automation · Web scraping" }
     }
   ],
-
+ 
   // ---------- IDIOMAS ----------
   languages: [
     { lang: { es: "Español", en: "Spanish" }, level: { es: "Nativo", en: "Native" } },
     { lang: { es: "Inglés", en: "English" }, level: { es: "B2 — First Certificate (Cambridge) · Semestre académico cursado en inglés", en: "B2 — First Certificate (Cambridge) · Academic semester completed in English" } }
   ],
-
+ 
   // ---------- PROYECTOS ----------
-  // Orden: accesibilidad → umbrales → ChatGPT → empleo doméstico → trabajo plataformizado → becas
+  // Orden: accesibilidad → umbrales → ChatGPT → empleo doméstico → trabajo plataformizado → faro → becas
   projects: [
     {
       id: "accesibilidad-salud",
@@ -236,6 +236,20 @@ const DATA = {
       ]
     },
     {
+      id: "faro",
+      title: { es: "FARO — Fichero Analítico de Registro y Observación", en: "FARO — Analytical Record and Observation File" },
+      org: { es: "Proyecto propio · Desarrollo en coautoría", en: "Personal project · Co-developed" },
+      period: "2026",
+      description: {
+        es: "Diseño y desarrollo de FARO, una herramienta web para el análisis cualitativo y etnográfico de datos. Permite cargar y codificar entrevistas y registros de observación, organizar el material en un espacio de trabajo en profundidad, conectar fragmentos entre secciones y exportar los resultados a Word y PDF. Construida como una aplicación de un solo archivo en HTML y JavaScript, sin dependencias ni servidor: funciona enteramente en el navegador y los datos permanecen en el dispositivo del usuario, garantizando la privacidad.",
+        en: "Design and development of FARO, a web tool for qualitative and ethnographic data analysis. It lets users load and code interviews and observation records, organize material in an in-depth workspace, connect excerpts across sections, and export results to Word and PDF. Built as a single-file HTML and JavaScript application, with no dependencies or server: it runs entirely in the browser and data stays on the user's device, ensuring privacy."
+      },
+      tags: [{ es: "Análisis cualitativo", en: "Qualitative analysis" }, { es: "Desarrollo web", en: "Web development" }, "JavaScript", { es: "Etnografía", en: "Ethnography" }, { es: "Herramienta de investigación", en: "Research tool" }],
+      links: [
+        { label: { es: "Visitar la herramienta", en: "Open the tool" }, url: "https://farocuali.github.io/Faro/" }
+      ]
+    },
+    {
       id: "becas-tribu",
       title: { es: "Becas para la Tribu — Web de difusión", en: "Becas para la Tribu — Outreach website" },
       org: { es: "Proyecto de la antropóloga Micaela Gueler", en: "Project by anthropologist Micaela Gueler" },
@@ -246,17 +260,17 @@ const DATA = {
       },
       tags: [{ es: "Diseño web", en: "Web design" }, { es: "IA Generativa", en: "Generative AI" }, { es: "Comunicación", en: "Communication" }, { es: "Educación", en: "Education" }],
       links: [
-        { label: { es: "Visitar el sitio", en: "Visit website" }, url: "https://agent-69ef88ea5bec5708ab55--becasparalatribu-bpt.netlify.app/" }
+        { label: { es: "Visitar el sitio", en: "Visit website" }, url: "https://becas-para-la-tribu.netlify.app/" }
       ]
     }
   ],
-
+ 
   // ---------- NOTA SOBRE MATERIAL NO PÚBLICO (en tercera persona) ----------
   projectsNote: {
     es: "Algunos trabajos no se incluyen aquí porque su difusión corresponde a las instituciones para las que fueron desarrollados, como los elaborados en el Ministerio de Hábitat y Desarrollo Humano del GCBA.",
     en: "Some works are not included here because their dissemination is reserved to the institutions for which they were developed, such as those produced at the Ministry of Habitat and Human Development of the City of Buenos Aires."
   },
-
+ 
   // ---------- TEXTOS DE LA INTERFAZ ----------
   ui: {
     nav: {
